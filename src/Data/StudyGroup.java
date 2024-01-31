@@ -38,10 +38,10 @@ public class StudyGroup {
 
     @Override
     public String toString() {
-        return "Группа № "+ numberStudyGroup + '\'' +
-                ", Преподаватель: " + teacherStudyGroup + '\'' +
-                ", Студенты:" + '\'' +
-                students + '\'' + '}';
+        return "Группа № "+ numberStudyGroup + ":" + '\n' +
+                "Преподаватель: " + teacherStudyGroup + '\n' +
+                "Студенты:" + '\n' +
+                students + '\n';
 
     }
 }

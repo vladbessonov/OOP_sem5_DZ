@@ -10,9 +10,12 @@ public class Main {
         controler.getAllStudent();
         System.out.println();
 
-        //Controler controler2 = new Controler();
         controler.createTeacher("1", "1","1");
         controler.createTeacher("2", "2","2");
         controler.getAllTeacher();
+
+        controler.createStudyGroup();
     }
+
+
 }
